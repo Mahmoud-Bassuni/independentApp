@@ -72,6 +72,7 @@
 		19C7FB362388B1A900DE6622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19C7FB382388B1A900DE6622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19C7FB392388B1A900DE6622 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		19C7FB472388B3B100DE6622 /* independentApp WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "independentApp WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +118,7 @@
 		19C7FB2F2388B1A500DE6622 /* independentApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				19C7FB472388B3B100DE6622 /* independentApp WatchKit Extension.entitlements */,
 				19C7FB302388B1A500DE6622 /* InterfaceController.swift */,
 				19C7FB322388B1A500DE6622 /* ExtensionDelegate.swift */,
 				19C7FB342388B1A500DE6622 /* NotificationController.swift */,
@@ -403,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "independentApp WatchKit Extension/independentApp WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3S7QTLA8PT;
 				INFOPLIST_FILE = "independentApp WatchKit Extension/Info.plist";
@@ -425,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "independentApp WatchKit Extension/independentApp WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3S7QTLA8PT;
 				INFOPLIST_FILE = "independentApp WatchKit Extension/Info.plist";
